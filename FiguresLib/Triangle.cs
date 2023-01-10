@@ -15,6 +15,15 @@
             {
                 Console.WriteLine("Triangle is right.");
             }
+            else if (aSide * aSide + cSide * cSide == bSide * bSide)
+            {
+                Console.WriteLine("Triangle is right.");
+            }
+            else if (cSide * cSide + bSide * bSide == aSide * aSide)
+            {
+                Console.WriteLine("Triangle is right.");
+            }
+
         }
         public override double GetArea()
         {
